@@ -1,18 +1,5 @@
-const PASSWORD = 'password';
-let failedAttempts = 0;
+let array = [1,2];
 
-while (true) {
-  let guess = prompt('What is the password:');
+array[1] = array[2];
 
-  if (guess === PASSWORD) {
-    console.log('You have successfully logged in.');
-    break;
-  }
-
-  failedAttempts += 1;
-
-  if (failedAttempts === 3) {
-    console.log('You have been denied access.');
-    break;
-  }
-}
+console.log(array)
