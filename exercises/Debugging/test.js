@@ -1,5 +1,10 @@
-function calculateBonus() {
-  return arguments[1] ? arguments[0] / 2 : 0;
+const team = {};
+function foo() {
+  return 2;
 }
 
-console.log(String(calculateBonus));
+let bar = { a: undefined }
+
+team[bar] = 'Kim';
+
+console.log(String(bar));
